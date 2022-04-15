@@ -1,6 +1,6 @@
-//套件引入
+//套件引入  （ DrawSVGPlugin 這套件是要付費使用 所以要使用gsap-trial ）
 import { gsap, ScrollTrigger, DrawSVGPlugin } from "gsap-trial/all";
-// 套件註冊使用
+// 套件註冊使用 
 gsap.registerPlugin(ScrollTrigger, DrawSVGPlugin);
 import './sass/index.scss';
 
